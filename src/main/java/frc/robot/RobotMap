@@ -1,0 +1,36 @@
+Talons & Victors                 #          Location            Name on Device
+
+Talon  LeftDriveM               (1*)        DriveTrain.java     LeftDM1
+Victor LeftDriveS1              (2)         DriveTrain.java     LeftDS2
+Victor LeftDriveS2              (3)         DriveTrain.java     LeftDS3
+Talon  RightDriveM              (4*)        DriveTrain.java     RightDM4
+Victor RightDriveS1             (5)         DriveTrain.java     RightDS5
+Victor RightDriveS2             (6)         DriveTrain.java     RightDS6
+Talon  ElevatorM                (7*)        Elevator.java       ElevatorM7
+Victor ElevatorS                (8)         Elevator.java       ElevatorS8
+Victor Roller                   (9)         Ball.java           BallIn10
+Talon  ArmRot                   (10*)       Arm.java            ArmRot9
+Victor Shooter                  (11)        Ball.java           BallArm11
+Talon  ClimberDown              (12)        Climb.java          ClimbDown12
+Talon  ClimberDowns             (13)        Climb.java          ClimbDownS13
+Talon  ClimbDrive               (14)        Climb.java          ClimbDrive14
+
+Solenoids
+
+Solenoid Shifter                (0,1)       DriveTrain.java
+Solenoid BallIntakes            (2,3)       Arm.java
+Solenoid Hatch                  (4)         Arm.java
+Solenoid FrontClimb             (5)         Climb.java
+Solenoid BackClimb              (6)         Climb.java
+
+Sensors
+
+ADXRS450_Gyro TheGyro           ()          DriveTrain.java
+DigitalInput FrontLimitSwitch   (0)         Climber.java
+DigitalInput BackLimitSwitch    (1)         Climber.java
+DigitalInput FrontDetect        (2)         Climber.java
+DigitalInput BackDetect         (3)         Climber.java
+
+(LimeLight)
+
+(* = Encoder)
